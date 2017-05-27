@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517562294.630657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__deallocating_deinit"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.488093"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.492469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.497732"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.503297"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.508991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517562549.095167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.MapView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.MKMapView&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562812.698631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.MapView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.MKMapView&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562812.701167"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562812.70446"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562812.705835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517562551.547435"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517562552.602075"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__deallocating_deinit"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.528451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.53319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.537646"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.542252"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562716.547207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517562809.425156"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__deallocating_deinit"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562809.430702"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562809.432845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hubble.MainViewController"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562809.436327"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562809.438054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hubble.MainViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hubble.MainViewController&gt;"
+                  moduleName = "Hubble"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zainkhaliq/Desktop/Hubble/MainViewController.swift"
+                  timestampString = "517562809.439655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517566003.816583"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517566003.816583"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MainViewController.swift"
+            timestampString = "517566003.816583"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

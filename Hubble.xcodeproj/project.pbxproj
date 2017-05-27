@@ -13,6 +13,8 @@
 		431CB6921ED7EFEC00B9F9F6 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431CB6911ED7EFEC00B9F9F6 /* Start.storyboard */; };
 		431CB6941ED7F0DC00B9F9F6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB6931ED7F0DC00B9F9F6 /* SignInViewController.swift */; };
 		431CB6961ED7F2D500B9F9F6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB6951ED7F2D500B9F9F6 /* SignUpViewController.swift */; };
+		43A8E90A1ED95CBC00660376 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8E9091ED95CBC00660376 /* MapKit.framework */; };
+		43A8E90C1ED95D5100660376 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8E90B1ED95D5100660376 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		431CB6911ED7EFEC00B9F9F6 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Start.storyboard; path = ../Start.storyboard; sourceTree = "<group>"; };
 		431CB6931ED7F0DC00B9F9F6 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		431CB6951ED7F2D500B9F9F6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		43A8E9091ED95CBC00660376 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43A8E90B1ED95D5100660376 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A8E90A1ED95CBC00660376 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				431CB67C1ED7EF5B00B9F9F6 /* Hubble */,
 				431CB67B1ED7EF5B00B9F9F6 /* Products */,
+				43A8E9081ED95CBC00660376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +65,21 @@
 				431CB67D1ED7EF5B00B9F9F6 /* AppDelegate.swift */,
 				431CB6931ED7F0DC00B9F9F6 /* SignInViewController.swift */,
 				431CB6951ED7F2D500B9F9F6 /* SignUpViewController.swift */,
+				43A8E90B1ED95D5100660376 /* MainViewController.swift */,
 				431CB6911ED7EFEC00B9F9F6 /* Start.storyboard */,
 				431CB6841ED7EF5B00B9F9F6 /* Assets.xcassets */,
 				431CB6861ED7EF5B00B9F9F6 /* LaunchScreen.storyboard */,
 				431CB6891ED7EF5B00B9F9F6 /* Info.plist */,
 			);
 			path = Hubble;
+			sourceTree = "<group>";
+		};
+		43A8E9081ED95CBC00660376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A8E9091ED95CBC00660376 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +157,7 @@
 				431CB6961ED7F2D500B9F9F6 /* SignUpViewController.swift in Sources */,
 				431CB6941ED7F0DC00B9F9F6 /* SignInViewController.swift in Sources */,
 				431CB67E1ED7EF5B00B9F9F6 /* AppDelegate.swift in Sources */,
+				43A8E90C1ED95D5100660376 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +313,7 @@
 				431CB68E1ED7EF5B00B9F9F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
