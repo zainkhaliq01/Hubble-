@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8AC6B9E8C8CE6EEF9088B3 /* Pods_Hubble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A9AF7CE5CA7A4183BEFB73 /* Pods_Hubble.framework */; };
 		431CB67E1ED7EF5B00B9F9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB67D1ED7EF5B00B9F9F6 /* AppDelegate.swift */; };
 		431CB6851ED7EF5B00B9F9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431CB6841ED7EF5B00B9F9F6 /* Assets.xcassets */; };
 		431CB6881ED7EF5B00B9F9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431CB6861ED7EF5B00B9F9F6 /* LaunchScreen.storyboard */; };
 		431CB6921ED7EFEC00B9F9F6 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431CB6911ED7EFEC00B9F9F6 /* Start.storyboard */; };
 		431CB6941ED7F0DC00B9F9F6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB6931ED7F0DC00B9F9F6 /* SignInViewController.swift */; };
 		431CB6961ED7F2D500B9F9F6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB6951ED7F2D500B9F9F6 /* SignUpViewController.swift */; };
+		435EA3B31EDE819600C9A823 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435EA3B21EDE819600C9A823 /* GoogleService-Info.plist */; };
 		43A8E90A1ED95CBC00660376 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8E9091ED95CBC00660376 /* MapKit.framework */; };
 		43A8E90C1ED95D5100660376 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8E90B1ED95D5100660376 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A9AF7CE5CA7A4183BEFB73 /* Pods_Hubble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		431CB67A1ED7EF5B00B9F9F6 /* Hubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		431CB67D1ED7EF5B00B9F9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		431CB6841ED7EF5B00B9F9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,8 +29,11 @@
 		431CB6911ED7EFEC00B9F9F6 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Start.storyboard; path = ../Start.storyboard; sourceTree = "<group>"; };
 		431CB6931ED7F0DC00B9F9F6 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		431CB6951ED7F2D500B9F9F6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		435EA3B21EDE819600C9A823 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43A8E9091ED95CBC00660376 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		43A8E90B1ED95D5100660376 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		BAE344E5E5AC58A3459871B8 /* Pods-Hubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hubble/Pods-Hubble.release.xcconfig"; sourceTree = "<group>"; };
+		C64E0FBD15BDB9E55CB185A6 /* Pods-Hubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hubble/Pods-Hubble.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +42,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A8E90A1ED95CBC00660376 /* MapKit.framework in Frameworks */,
+				0A8AC6B9E8C8CE6EEF9088B3 /* Pods_Hubble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C6E7B5DFFDDA7CF2CD91FE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C64E0FBD15BDB9E55CB185A6 /* Pods-Hubble.debug.xcconfig */,
+				BAE344E5E5AC58A3459871B8 /* Pods-Hubble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		431CB6711ED7EF5B00B9F9F6 = {
 			isa = PBXGroup;
 			children = (
 				431CB67C1ED7EF5B00B9F9F6 /* Hubble */,
 				431CB67B1ED7EF5B00B9F9F6 /* Products */,
 				43A8E9081ED95CBC00660376 /* Frameworks */,
+				3C6E7B5DFFDDA7CF2CD91FE9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +87,7 @@
 				431CB6841ED7EF5B00B9F9F6 /* Assets.xcassets */,
 				431CB6861ED7EF5B00B9F9F6 /* LaunchScreen.storyboard */,
 				431CB6891ED7EF5B00B9F9F6 /* Info.plist */,
+				435EA3B21EDE819600C9A823 /* GoogleService-Info.plist */,
 			);
 			path = Hubble;
 			sourceTree = "<group>";
@@ -78,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				43A8E9091ED95CBC00660376 /* MapKit.framework */,
+				05A9AF7CE5CA7A4183BEFB73 /* Pods_Hubble.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 431CB68C1ED7EF5B00B9F9F6 /* Build configuration list for PBXNativeTarget "Hubble" */;
 			buildPhases = (
+				B9C0E120A6F0B2851CC42C02 /* [CP] Check Pods Manifest.lock */,
 				431CB6761ED7EF5B00B9F9F6 /* Sources */,
 				431CB6771ED7EF5B00B9F9F6 /* Frameworks */,
 				431CB6781ED7EF5B00B9F9F6 /* Resources */,
+				10B963F64E781DDDE116310D /* [CP] Embed Pods Frameworks */,
+				C318FECFCD08915F08F5647D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,12 +164,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				431CB6881ED7EF5B00B9F9F6 /* LaunchScreen.storyboard in Resources */,
+				435EA3B31EDE819600C9A823 /* GoogleService-Info.plist in Resources */,
 				431CB6851ED7EF5B00B9F9F6 /* Assets.xcassets in Resources */,
 				431CB6921ED7EFEC00B9F9F6 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10B963F64E781DDDE116310D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubble/Pods-Hubble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C0E120A6F0B2851CC42C02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C318FECFCD08915F08F5647D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubble/Pods-Hubble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		431CB6761ED7EF5B00B9F9F6 /* Sources */ = {
@@ -272,6 +343,7 @@
 		};
 		431CB68D1ED7EF5B00B9F9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64E0FBD15BDB9E55CB185A6 /* Pods-Hubble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hubble/Info.plist;
@@ -284,6 +356,7 @@
 		};
 		431CB68E1ED7EF5B00B9F9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE344E5E5AC58A3459871B8 /* Pods-Hubble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hubble/Info.plist;
